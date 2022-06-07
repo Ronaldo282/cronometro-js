@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{ color: white;
+background-color: rgb(9, 10, 10);}
+#buttonIniciar{
+    border-radius: 5px;
+    background-color: green;
+    padding: 8px;
+    color: white;
+    outline: none;
+    border: none;
+}
+#buttonPausar{
+    border-radius: 5px;
+    background-color:rgb(152, 152, 32);
+    padding: 8px;
+    color: white;
+    outline: none;
+    border: none;
+}
+#buttonParar{
+    border-radius: 5px;
+    background-color: rgb(183, 22, 22);
+    padding: 8px;
+    color: white;
+    outline: none;
+    border: none;
+}
+#Menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: linear-gradient(to right,blue ,rgb(70, 69, 69));
+    padding: 40px;
+    border-radius: 5px;
+}
